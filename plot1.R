@@ -1,5 +1,5 @@
 setwd("~/Documents/git/ExData_Plotting1")
-#Getting and cleaning the data
+# Getting and cleaning the data
 if (!file.exists("./household_power_consumption.txt")) {
     download.file("http://j.mp/TbC79E", "./power_data.zip")
     unzip("./power_data.zip", overwrite = T, exdir = ".")
